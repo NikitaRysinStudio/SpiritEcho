@@ -1,0 +1,13 @@
+{
+  "minimumRequiredVersion": "1.0.0",
+  "latestVersion": "1.0.0",
+  "gracePeriodEnd": "2026-12-31T23:59:59Z",
+  "forceUpdate": false,
+  "maintenanceMode": false,
+  "storeUrls": {
+    "ios": "https://apps.apple.com/app/spirit-echo/id0000000000",
+    "android": "https://play.google.com/store/apps/details?id=com.yourcompany.spiritecho",
+    "steam": "https://store.steampowered.com/app/000000",
+    "default": "https://yourwebsite.com"
+  }
+}
