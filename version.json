@@ -1,6 +1,6 @@
 {
-  "minimumRequiredVersion": "1.0.0",
-  "latestVersion": "1.0.0",
+  "minimumRequiredVersion": "1.1.0",
+  "latestVersion": "1.1.0",
   "gracePeriodEnd": "2026-12-31T23:59:59Z",
   "forceUpdate": false,
   "maintenanceMode": false,
