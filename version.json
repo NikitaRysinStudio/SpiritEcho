@@ -5,9 +5,11 @@
   "forceUpdate": true,
   "maintenanceMode": false,
   "storeUrls": {
-    "ios": "https://apps.apple.com/app/spirit-echo/id0000000000",
-    "android": "https://play.google.com/store/apps/details?id=com.yourcompany.spiritecho",
-    "steam": "https://store.steampowered.com/app/000000",
-    "default": "https://yourwebsite.com"
-  }
+      "ios": "https://apps.apple.com/...",
+      "googlePlay": "https://play.google.com/store/apps/details?id=...",
+      "rustore": "https://apps.rustore.ru/app/...",
+      "huawei": "https://appgallery.huawei.com/app/...",
+      "android": "https://play.google.com/store/apps/details?id=...",
+      "default": "https://play.google.com/store/apps/details?id=..."
+    }
 }
