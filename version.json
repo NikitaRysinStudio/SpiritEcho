@@ -1,7 +1,7 @@
 {
   "minimumRequiredVersion": "1.2.0",
   "latestVersion": "1.2.0",
-  "gracePeriodEnd": "2026-12-31T23:59:59Z",
+  "gracePeriodEnd": "2026-01-31T23:59:59Z",
   "forceUpdate": true,
   "maintenanceMode": false,
   "storeUrls": {
