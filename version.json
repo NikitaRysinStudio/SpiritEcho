@@ -1,8 +1,8 @@
 {
-  "minimumRequiredVersion": "1.0.30",
-  "latestVersion": "1.0.30",
+  "minimumRequiredVersion": "1.2.0",
+  "latestVersion": "1.2.0",
   "gracePeriodEnd": "2026-12-31T23:59:59Z",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "maintenanceMode": false,
   "storeUrls": {
     "ios": "https://apps.apple.com/app/spirit-echo/id0000000000",
