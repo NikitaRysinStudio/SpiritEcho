@@ -1,15 +1,26 @@
-{
-  "minimumRequiredVersion": "1.0.34",
-  "latestVersion": "1.1.0",
-  "gracePeriodEnd": "2026-12-31T23:59:59Z",
-  "forceUpdate": false,
-  "maintenanceMode": false,
-  "storeUrls": {
-      "ios": "https://apps.apple.com/...",
-      "googlePlay": "https://play.google.com/store/apps/details?id=...",
-      "rustore": "https://apps.rustore.ru/app/...",
-      "huawei": "https://appgallery.huawei.com/app/...",
-      "android": "https://play.google.com/store/apps/details?id=...",
-      "default": "https://play.google.com/store/apps/details?id=..."
+    {
+        "minimumRequiredVersion": "1.0.34",
+        "latestVersion": "1.1.0",
+        "gracePeriodEnd": "2026-12-31T23:59:59Z",
+        "forceUpdate": false,
+        "maintenanceMode": false,
+        "storeVersions": {
+            "rustore": {
+                "latestVersion": "1.1.0"
+            },
+            "ios": {
+                "latestVersion": "1.1.0"
+            },
+            "googlePlay": {
+                "latestVersion": "1.1.0"
+            }
+        },
+        "storeUrls": {
+            "ios": "https://apps.apple.com/...",
+            "googlePlay": "https://play.google.com/store/apps/details?id=...",
+            "rustore": "https://apps.rustore.ru/app/...",
+            "huawei": "https://appgallery.huawei.com/app/...",
+            "android": "https://play.google.com/store/apps/details?id=...",
+            "default": "https://play.google.com/store/apps/details?id=..."
+        }
     }
-}
