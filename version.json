@@ -2,7 +2,7 @@
   "minimumRequiredVersion": "1.0.34",
   "latestVersion": "1.1.0",
   "gracePeriodEnd": "2026-12-31T23:59:59Z",
-  "forceUpdate": true,
+  "forceUpdate": false,
   "maintenanceMode": false,
   "storeUrls": {
       "ios": "https://apps.apple.com/...",
