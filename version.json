@@ -12,13 +12,15 @@
                 "latestVersion": "1.0"
             },
             "googlePlay": {
-                "latestVersion": "1.1.0"
+              "latestVersion": "1.1.14",
+              "minimumRequiredVersion": "1.1.14",
+              "gracePeriodEnd": "2024-01-01T00:00:00Z"
             }
         },
         "storeUrls": {
             "ios": "https://apps.apple.com/...",
-            "googlePlay": "https://play.google.com/store/apps/details?id=...",
-            "rustore": "https://apps.rustore.ru/app/...",
+            "googlePlay": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho",
+            "rustore": "https://www.rustore.ru/catalog/app/com.NikitaRysinStudio.SpiritEcho",
             "huawei": "https://appgallery.huawei.com/app/...",
             "android": "https://play.google.com/store/apps/details?id=...",
             "default": "https://play.google.com/store/apps/details?id=..."
