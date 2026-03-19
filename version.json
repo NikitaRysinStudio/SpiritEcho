@@ -1,28 +1,30 @@
     {
-        "minimumRequiredVersion": "1.0.34",
-        "latestVersion": "1.1.0",
-        "gracePeriodEnd": "2026-12-31T23:59:59Z",
-        "forceUpdate": false,
-        "maintenanceMode": false,
-        "storeVersions": {
-            "rustore": {
-                "latestVersion": "1.1.0"
-            },
-            "ios": {
-                "latestVersion": "1.0"
-            },
-            "googlePlay": {
-              "latestVersion": "1.1.14",
-              "minimumRequiredVersion": "1.1.14",
-              "gracePeriodEnd": "2024-01-01T00:00:00Z"
-            }
+      "minimumRequiredVersion": "1.0.34",
+      "latestVersion": "1.1.0",
+      "gracePeriodEnd": "2026-12-31T23:59:59Z",
+      "forceUpdate": false,
+      "maintenanceMode": false,
+      "storeVersions": {
+        "rustore": {
+          "latestVersion": "1.1.14",
+          "minimumRequiredVersion": "1.1.14",
+          "gracePeriodEnd": "2024-01-01T00:00:00Z"
         },
-        "storeUrls": {
-            "ios": "https://apps.apple.com/...",
-            "googlePlay": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho",
-            "rustore": "https://www.rustore.ru/catalog/app/com.NikitaRysinStudio.SpiritEcho",
-            "huawei": "https://appgallery.huawei.com/app/...",
-            "android": "https://play.google.com/store/apps/details?id=...",
-            "default": "https://play.google.com/store/apps/details?id=..."
+        "ios": {
+          "latestVersion": "1.0"
+        },
+        "googlePlay": {
+          "latestVersion": "1.1.14",
+          "minimumRequiredVersion": "1.1.14",
+          "gracePeriodEnd": "2024-01-01T00:00:00Z"
         }
+      },
+      "storeUrls": {
+        "ios": "https://apps.apple.com/app/id6760174695",
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho",
+        "rustore": "https://www.rustore.ru/catalog/app/com.NikitaRysinStudio.SpiritEcho",
+        "huawei": "https://appgallery.huawei.com/app/...",
+        "android": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho.",
+        "default": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho"
+      }
     }
