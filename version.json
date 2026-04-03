@@ -1,32 +1,32 @@
-    {
-      "minimumRequiredVersion": "1.1.16",
-      "latestVersion": "1.1.16",
-          "gracePeriodEnd": "2024-01-01T00:00:00Z"
-      "forceUpdate": false,
-      "maintenanceMode": false,
-      "storeVersions": {
-        "rustore": {
-          "latestVersion": "1.1.16",
-          "minimumRequiredVersion": "1.1.16",
-          "gracePeriodEnd": "2024-01-01T00:00:00Z"
-        },
-        "ios": {
-                    "latestVersion": "1.1.16",
-          "minimumRequiredVersion": "1.1.16",
-          "gracePeriodEnd": "2024-01-01T00:00:00Z"
-        },
-        "googlePlay": {
-          "latestVersion": "1.1.16",
-          "minimumRequiredVersion": "1.1.16",
-          "gracePeriodEnd": "2024-01-01T00:00:00Z"
-        }
-      },
-      "storeUrls": {
-        "ios": "https://apps.apple.com/app/id6760174695",
-        "googlePlay": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho",
-        "rustore": "https://www.rustore.ru/catalog/app/com.NikitaRysinStudio.SpiritEcho",
-        "huawei": "https://appgallery.huawei.com/app/...",
-        "android": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho.",
-        "default": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho"
-      }
-    }
+{                                                                                                                                                                                                                                              
+    "minimumRequiredVersion": "1.1.16",                                                                                                                                                                                                          
+    "latestVersion": "1.1.16",                                                                                                                                                                                                                   
+    "gracePeriodEnd": "2024-01-01T00:00:00Z",                                                                                                                                                                                                    
+    "forceUpdate": false,                                   
+    "maintenanceMode": false,                                                                                                                                                                                                                    
+    "storeVersions": {
+      "rustore": {                                                                                                                                                                                                                               
+        "latestVersion": "1.1.16",                          
+        "minimumRequiredVersion": "1.1.16",
+        "gracePeriodEnd": "2024-01-01T00:00:00Z"
+      },                                                                                                                                                                                                                                         
+      "ios": {
+        "latestVersion": "1.1.16",                                                                                                                                                                                                               
+        "minimumRequiredVersion": "1.1.16",                 
+        "gracePeriodEnd": "2024-01-01T00:00:00Z"
+      },                                                                                                                                                                                                                                         
+      "googlePlay": {
+        "latestVersion": "1.1.16",                                                                                                                                                                                                               
+        "minimumRequiredVersion": "1.1.16",                 
+        "gracePeriodEnd": "2024-01-01T00:00:00Z"
+      }                                                                                                                                                                                                                                          
+    },
+    "storeUrls": {                                                                                                                                                                                                                               
+      "ios": "https://apps.apple.com/app/id6760174695",     
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho",
+      "rustore": "https://www.rustore.ru/catalog/app/com.NikitaRysinStudio.SpiritEcho",                                                                                                                                                          
+      "huawei": "https://appgallery.huawei.com/app/...",                                                                                                                                                                                         
+      "android": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho.",                                                                                                                                              
+      "default": "https://play.google.com/store/apps/details?id=com.NikitaRysinStudio.SpiritEcho"                                                                                                                                                
+    }                                                       
+  }  
