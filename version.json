@@ -16,8 +16,8 @@
         "gracePeriodEnd": "2024-01-01T00:00:00Z"
       },                                                                                                                                                                                                                                         
       "googlePlay": {
-        "latestVersion": "1.1.16",                                                                                                                                                                                                               
-        "minimumRequiredVersion": "1.1.16",                 
+        "latestVersion": "1.1.19",                                                                                                                                                                                                               
+        "minimumRequiredVersion": "1.1.19",                 
         "gracePeriodEnd": "2024-01-01T00:00:00Z"
       }                                                                                                                                                                                                                                          
     },
