@@ -1,23 +1,23 @@
 {                                                                                                                                                                                                                                              
-    "minimumRequiredVersion": "1.1.16",                                                                                                                                                                                                          
-    "latestVersion": "1.1.16",                                                                                                                                                                                                                   
+    "minimumRequiredVersion": "1.2.0",                                                                                                                                                                                                          
+    "latestVersion": "1.2.3",                                                                                                                                                                                                                   
     "gracePeriodEnd": "2024-01-01T00:00:00Z",                                                                                                                                                                                                    
     "forceUpdate": false,                                   
     "maintenanceMode": false,                                                                                                                                                                                                                    
     "storeVersions": {
       "rustore": {                                                                                                                                                                                                                               
-        "latestVersion": "1.1.16",                          
-        "minimumRequiredVersion": "1.1.16",
+        "latestVersion": "1.2.3",                          
+        "minimumRequiredVersion": "1.2.0",
         "gracePeriodEnd": "2024-01-01T00:00:00Z"
       },                                                                                                                                                                                                                                         
       "ios": {
-        "latestVersion": "1.1.16",                                                                                                                                                                                                               
-        "minimumRequiredVersion": "1.1.16",                 
+        "latestVersion": "1.2.3",                                                                                                                                                                                                               
+        "minimumRequiredVersion": "1.2.0",                 
         "gracePeriodEnd": "2024-01-01T00:00:00Z"
       },                                                                                                                                                                                                                                         
       "googlePlay": {
-        "latestVersion": "1.1.19",                                                                                                                                                                                                               
-        "minimumRequiredVersion": "1.1.19",                 
+        "latestVersion": "1.2.3",                                                                                                                                                                                                               
+        "minimumRequiredVersion": "1.2.0",                 
         "gracePeriodEnd": "2024-01-01T00:00:00Z"
       }                                                                                                                                                                                                                                          
     },
