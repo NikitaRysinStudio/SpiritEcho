@@ -1,133 +1,175 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Privacy Policy – Spirit Echo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Spirit Echo by Nikita Rysin Studio. English and Russian versions.">
+  <title>Privacy Policy / Политика конфиденциальности — Spirit Echo</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 1em; line-height: 1.6; max-width: 900px; margin: auto; }
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { max-width: 960px; margin: auto; padding: 24px 20px 64px; font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    h1 { font-size: 2rem; line-height: 1.2; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; line-height: 1.4; }
+    a { color: #1769b5; overflow-wrap: anywhere; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
+    li { margin: 6px 0; }
+    .date { color: #626262; }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: .94rem; }
+    th, td { padding: 12px; border: 1px solid #b8b8b8; vertical-align: top; text-align: left; }
+    section[lang="ru"] { margin-top: 64px; border-top: 1px solid #b8b8b8; padding-top: 28px; }
+    footer { margin-top: 40px; border-top: 1px solid #b8b8b8; padding-top: 16px; }
+    @media (prefers-color-scheme: dark) { a { color: #8bc3ff; } .date { color: #bdbdbd; } }
+    @media print { body { max-width: none; padding: 0; color: #111; } a { color: inherit; } nav { display: none; } }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Spirit Echo — Privacy Policy</h1>
+    <p class="date">Last updated: <time datetime="2026-11-20">20 November 2026</time></p>
+    <nav aria-label="Language"><a href="#english" lang="en">English</a><a href="#russian" lang="ru">Русский</a></nav>
+  </header>
 
-<h2>Privacy Policy for Spirit Echo</h2>
+  <main>
+    <section id="english" lang="en" aria-label="English privacy policy">
+      <p>This Privacy Policy explains how <strong>Nikita Rysin Studio</strong> (“we”, “us”) and the services integrated into <strong>Spirit Echo</strong> (“the game”) process information. It applies to the mobile game on its supported platforms. The services available depend on your platform, distribution store, game version and privacy choices.</p>
+      <p>You do not have to enter your real name, postal address or email address for normal gameplay. Technical identifiers and usage data may nevertheless be personal data under applicable law. A randomly assigned player or installation ID does not make all associated information anonymous.</p>
 
-<p>This Privacy Policy applies to the mobile application <strong>Spirit Echo</strong> (“Application”), developed and operated by <strong>Nikita Rysin Studio</strong> (“Service Provider”). The Application is provided as a Freemium service and is intended for use AS IS.</p>
+      <h2>1. Information processed</h2>
+      <ul>
+        <li><strong>Game data:</strong> progress, settings, achievements, unlocked content, virtual currency, purchase entitlements and reward records. These are stored on your device; supported progress data may also be synchronized through cloud services.</li>
+        <li><strong>Technical data and identifiers:</strong> device model, operating system, app and SDK versions, language, network information, IP address, approximate country or region, installation identifiers and a pseudonymous player ID. Advertising identifiers, such as Android’s advertising ID or Apple’s IDFA, may be processed when available and permitted by platform settings and applicable requirements.</li>
+        <li><strong>Usage and measurement data:</strong> sessions, gameplay and progression events, feature interactions, installation or campaign attribution, purchase events, advertising revenue and ad interactions, including impressions, completions and reward events.</li>
+        <li><strong>Diagnostics:</strong> crash reports, error and technical logs, and information about app performance.</li>
+        <li><strong>Purchases:</strong> product identifiers, transaction identifiers or receipts, purchase status and information needed to deliver, restore or validate content. Payments are handled by the relevant store or payment provider. We do not receive your full payment-card number.</li>
+        <li><strong>Notifications and privacy preferences:</strong> notification delivery tokens where messaging is used, notification settings, consent status, advertising preferences and records needed to apply those choices.</li>
+        <li><strong>Support:</strong> your email address and the information, screenshots or diagnostic reports you choose to send when contacting us.</li>
+      </ul>
 
-<hr>
+      <h2>2. Purposes and legal grounds</h2>
+      <p>Information is used to operate the game, save or synchronize progress, deliver purchased content and rewards, handle support and notifications, diagnose problems, improve the game, measure installations and marketing performance, provide and measure advertising, and prevent fraud or duplicate rewards.</p>
+      <p>Where relevant, processing relies on performance of the service you request, consent where required, legitimate interests where permitted by law (such as security, fraud prevention and service improvement), or legal obligations. The applicable ground depends on the information, purpose and your jurisdiction.</p>
 
-<h3>1. Information We Collect</h3>
+      <h2>3. Optional advertising and online services</h2>
+      <p>Rewarded advertisements are optional. You choose whether to watch an advertisement for the reward described in the Store. Advertising providers may process technical identifiers, IP-derived location and ad-interaction information to deliver ads, measure performance and prevent fraud. Personalized advertising depends on applicable requirements, your choices and the provider’s settings.</p>
+      <p>Ad delivery uses <strong>Unity LevelPlay / ironSource technology and Unity Ads</strong>, or <strong>Yandex Mobile Ads</strong>, depending on the platform and distribution store. We keep reward-completion records and a daily reward counter to grant rewards correctly and avoid duplicate grants.</p>
+      <p>Advertisements require an Internet connection. Cloud synchronization, purchase validation and some content downloads also use online services. Analytics and diagnostic services can communicate when the game starts or while it is used, even if you do not watch ads. Local saves and cached events may be created while offline; SDKs may send cached events when connectivity returns.</p>
 
-<p>The Application may collect certain types of data automatically for analytics, functionality, cloud save, and in-app purchases. The data collected does <strong>not</strong> include personally identifiable information such as your name, email, or address.</p>
+      <h2>4. Service providers and recipients</h2>
+      <p>We use the services below where included in the relevant game version. They receive information needed for their functions and may process it under their own terms and privacy policies. Advertising partners enabled for your region may also be identified in the consent message.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">Provider or service</th><th scope="col">Purpose and privacy information</th></tr></thead>
+        <tbody>
+          <tr><td>Unity services</td><td>Player authentication, cloud saves, in-app purchases and analytics. <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a> and <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Game Player and App User Privacy Policy</a>.</td></tr>
+          <tr><td>Unity LevelPlay / ironSource and Unity Ads</td><td>Ad mediation, delivery, measurement and fraud prevention. <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity advertising privacy information</a>.</td></tr>
+          <tr><td>Yandex Mobile Ads and AppMetrica</td><td>Advertising, app analytics, attribution and advertising revenue measurement. <a href="https://yandex.com/legal/confidential/">Yandex Privacy Policy</a> and <a href="https://appmetrica.yandex.com/docs/en/new-users/data-security">AppMetrica privacy information</a>.</td></tr>
+          <tr><td>Google Firebase and Google Analytics for Firebase</td><td>Analytics, crash reporting and messaging. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</td></tr>
+          <tr><td>Google User Messaging Platform (UMP)</td><td>Consent messages, consent-status requests and management of advertising privacy choices. <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</td></tr>
+          <tr><td>AppsFlyer</td><td>Installation and campaign attribution, event and purchase measurement, and fraud prevention. <a href="https://www.appsflyer.com/legal/services-privacy-policy/">AppsFlyer Services Privacy Policy</a>.</td></tr>
+          <tr><td>Apple App Store, Google Play and RuStore</td><td>Distribution, billing, purchase verification and restoration, as applicable. <a href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy Policy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://www.rustore.ru/help/legal/privacy-policy-users">RuStore Privacy Policy</a>.</td></tr>
+        </tbody>
+      </table></div>
+      <p>We may also disclose information when required by law, to protect users or the service, or to respond to your request. Sharing identifiers and usage or ad-interaction information for personalized or cross-context advertising may be considered “sale”, “sharing” or targeted advertising under some privacy laws; applicable opt-out rights are described below.</p>
 
-<h4>a) Usage Data</h4>
-<p>Collected via <strong>Unity Analytics</strong>:</p>
+      <h2>5. Your choices</h2>
+      <ul>
+        <li><strong>Advertising:</strong> use the consent message and advertising privacy options available in the Store when offered or required. You can review or withdraw the choices supported by that message. Ad availability may change with those choices.</li>
+        <li><strong>Device controls:</strong> manage app tracking and advertising identifiers through the privacy settings offered by iOS or Android. An iOS App Tracking Transparency choice is separate from the advertising consent message.</li>
+        <li><strong>Notifications:</strong> manage notification permissions in your device’s settings.</li>
+        <li><strong>Local and cloud data:</strong> use any reset or deletion options available in the game, or contact us about data held through online services. Uninstalling or clearing local data does not automatically erase cloud saves, store purchase records or data already received by service providers.</li>
+        <li><strong>Privacy requests:</strong> contact us using the email below for requests relating to analytics or other personal data. The advertising privacy options are not a general switch for every analytics or online service in the game.</li>
+      </ul>
+      <p>Watching ads is not required for normal gameplay. Declining optional advertising personalization or exercising privacy rights does not require you to watch ads to continue playing.</p>
 
-<ul>
-<li>application interactions (in-app actions, screens visited)</li>
-<li>device information (device model, OS version, language)</li>
-<li>IP-based approximate location (country only)</li>
-<li>session lengths and gameplay metrics</li>
-<li>performance data</li>
-</ul>
+      <h2>6. Retention, transfers and security</h2>
+      <p>We retain information for as long as needed for the purposes described here, including operating the service, resolving support or purchase issues, preventing fraud and meeting legal obligations. Local saves remain until removed or replaced; cloud and provider records follow the relevant service’s retention settings and policies. Uninstalling the game does not by itself delete those records.</p>
+      <p>Providers may process information in countries other than your country of residence. Where applicable, international transfers must use safeguards required by law; the providers’ policies explain their processing locations and transfer arrangements.</p>
+      <p>We use reasonable technical and organizational measures to protect information. No storage or transmission method can guarantee absolute security.</p>
 
-<h4>b) Crash Logs & Diagnostics</h4>
+      <h2>7. Privacy rights</h2>
+      <p>Depending on your location and applicable law, you may have rights to obtain information about processing, access or correct data, request deletion or portability, restrict or object to processing, withdraw consent, or opt out of targeted advertising and the sale or sharing of personal information. You may also be entitled to complain to a data protection authority. Requests are subject to applicable legal conditions and exceptions.</p>
+      <p>To make a request, email <a href="mailto:nikita.rysin.studio@gmail.com">nikita.rysin.studio@gmail.com</a>. Where verification is appropriate for the type of request, we may ask for the minimum information needed to locate relevant records and verify it. Please include your platform and game version; do not send passwords or full payment-card details. Requests about a provider’s independent processing can also be directed to that provider.</p>
+      <p>For an advertising opt-out, use the available in-game privacy options or email <a href="mailto:nikita.rysin.studio@gmail.com?subject=Do%20Not%20Sell%20or%20Share%20My%20Personal%20Information">Do Not Sell or Share My Personal Information</a>. We do not require identity verification for a sale/sharing opt-out, but may need limited information to identify the records to which it applies.</p>
 
-<p>Collected via Unity services to help improve stability:</p>
+      <h2>8. Children</h2>
+      <p>Spirit Echo is intended for a teen and adult audience and is not specifically directed to children under 13. We do not knowingly seek personal information from children under that age. If you believe a child’s personal data has been provided contrary to applicable requirements, contact us so we can investigate and take appropriate action, including deletion where required. Local requirements for parental consent may set a higher age.</p>
 
-<ul>
-<li>crash reports</li>
-<li>performance diagnostics</li>
-<li>technical logs</li>
-</ul>
+      <h2>9. Changes and contact</h2>
+      <p>We may update this policy as the game or its services change. The updated version will be posted on this page with a revised date. Where required, we will provide additional notice or request consent.</p>
+      <p><strong>Nikita Rysin Studio</strong><br>Website: <a href="https://nikitarysinstudio.com">nikitarysinstudio.com</a><br>Privacy and support: <a href="mailto:nikita.rysin.studio@gmail.com">nikita.rysin.studio@gmail.com</a></p>
+    </section>
 
-<h4>c) In-App Purchase Information</h4>
+    <section id="russian" lang="ru" aria-label="Политика конфиденциальности на русском языке">
+      <h1>Spirit Echo — Политика конфиденциальности</h1>
+      <p class="date">Обновлено: <time datetime="2026-11-20">20 ноября 2026 года</time></p>
+      <p>В этой политике описано, как <strong>Nikita Rysin Studio</strong> («мы») и сервисы, встроенные в <strong>Spirit Echo</strong> («игра»), обрабатывают информацию. Политика распространяется на мобильную игру на поддерживаемых платформах. Набор сервисов зависит от платформы, магазина распространения, версии игры и ваших настроек конфиденциальности.</p>
+      <p>Для обычной игры не требуется вводить настоящее имя, почтовый адрес или электронную почту. При этом технические идентификаторы и сведения об использовании могут считаться персональными данными по применимому законодательству. Случайный идентификатор игрока или установки не делает всю связанную с ним информацию анонимной.</p>
 
-<p>When you make purchases, the following data may be processed:</p>
+      <h2>1. Обрабатываемая информация</h2>
+      <ul>
+        <li><strong>Игровые данные:</strong> прогресс, настройки, достижения, открытый контент, виртуальная валюта, права на покупки и записи о наградах. Они хранятся на устройстве; поддерживаемые данные прогресса также могут синхронизироваться через облачные сервисы.</li>
+        <li><strong>Технические сведения и идентификаторы:</strong> модель устройства, операционная система, версии приложения и SDK, язык, сведения о сети, IP-адрес, приблизительная страна или регион, идентификаторы установки и псевдонимный идентификатор игрока. Рекламные идентификаторы, например рекламный ID Android или IDFA Apple, могут обрабатываться, если они доступны и это допускается настройками платформы и применимыми требованиями.</li>
+        <li><strong>Использование и измерения:</strong> сеансы, игровые события и прогресс, взаимодействие с функциями, атрибуция установки или рекламной кампании, события покупок, рекламный доход и взаимодействие с рекламой, включая показы, завершения просмотра и события наград.</li>
+        <li><strong>Диагностика:</strong> отчёты о сбоях, ошибки, технические журналы и сведения о производительности.</li>
+        <li><strong>Покупки:</strong> идентификаторы товаров и транзакций, чеки, статус покупки и сведения, необходимые для выдачи, восстановления или проверки контента. Платежи обрабатывает соответствующий магазин или платёжный провайдер. Мы не получаем полный номер вашей банковской карты.</li>
+        <li><strong>Уведомления и настройки конфиденциальности:</strong> токены доставки уведомлений при использовании сервисов сообщений, настройки уведомлений, статус согласия, рекламные предпочтения и записи, необходимые для применения вашего выбора.</li>
+        <li><strong>Поддержка:</strong> ваш адрес электронной почты и сведения, снимки экрана или диагностические отчёты, которые вы сами отправляете при обращении к нам.</li>
+      </ul>
 
-<ul>
-<li>purchase history (items purchased)</li>
-<li>transaction identifiers</li>
-<li>payment confirmation from the platform provider (e.g. Apple App Store or Google Play)</li>
-</ul>
+      <h2>2. Цели и основания обработки</h2>
+      <p>Информация используется для работы игры, сохранения и синхронизации прогресса, выдачи покупок и наград, поддержки и уведомлений, диагностики и улучшения игры, измерения установок и эффективности продвижения, показа и измерения рекламы, предотвращения мошенничества и повторной выдачи наград.</p>
+      <p>В зависимости от применимого законодательства обработка основывается на предоставлении запрошенного вами сервиса, согласии там, где оно требуется, законных интересах в допустимых законом случаях — например, безопасности, предотвращении мошенничества и улучшении сервиса, — либо на исполнении правовых обязанностей. Основание зависит от данных, цели и вашей юрисдикции.</p>
 
-<p>This data is used solely to deliver purchased content and prevent fraud.</p>
+      <h2>3. Добровольная реклама и онлайн-сервисы</h2>
+      <p>Просмотр рекламы за награду добровольный. Вы сами решаете, смотреть ли объявление ради награды, указанной в магазине. Рекламные провайдеры могут обрабатывать технические идентификаторы, приблизительное местоположение по IP-адресу и взаимодействия с объявлениями для показа рекламы, измерений и защиты от мошенничества. Персонализация зависит от применимых требований, вашего выбора и настроек провайдера.</p>
+      <p>В зависимости от платформы и магазина используются <strong>Unity LevelPlay / технологии ironSource и Unity Ads</strong> либо <strong>Yandex Mobile Ads</strong>. Мы сохраняем записи о завершении просмотра и дневной счётчик наград, чтобы корректно выдавать награды и предотвращать повторное начисление.</p>
+      <p>Для рекламы нужен интернет. Облачная синхронизация, проверка покупок и загрузка части контента также используют онлайн-сервисы. Аналитика и диагностика могут передавать данные при запуске и использовании игры, даже если вы не смотрите рекламу. Без сети могут создаваться локальные сохранения и кэш событий; SDK могут передать накопленные события после восстановления соединения.</p>
 
-<h4>d) Device Identifiers</h4>
+      <h2>4. Сервисы и получатели данных</h2>
+      <p>В соответствующих версиях игры используются перечисленные ниже сервисы. Они получают информацию для выполнения своих функций и могут обрабатывать её по собственным условиям и политикам. Рекламные партнёры, доступные в вашем регионе, также могут быть перечислены в окне согласия.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">Провайдер или сервис</th><th scope="col">Назначение и сведения о конфиденциальности</th></tr></thead>
+        <tbody>
+          <tr><td>Сервисы Unity</td><td>Аутентификация игрока, облачные сохранения, встроенные покупки и аналитика. <a href="https://unity.com/legal/privacy-policy">Политика Unity</a> и <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">политика для игроков и пользователей приложений</a>.</td></tr>
+          <tr><td>Unity LevelPlay / ironSource и Unity Ads</td><td>Рекламная медиация, показы, измерения и защита от мошенничества. <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Сведения Unity о конфиденциальности</a>.</td></tr>
+          <tr><td>Yandex Mobile Ads и AppMetrica</td><td>Реклама, аналитика приложения, атрибуция и измерение рекламного дохода. <a href="https://yandex.com/legal/confidential/">Политика Яндекса</a> и <a href="https://appmetrica.yandex.com/docs/en/new-users/data-security">сведения AppMetrica</a>.</td></tr>
+          <tr><td>Google Firebase и Google Analytics for Firebase</td><td>Аналитика, отчёты о сбоях и сообщения. <a href="https://firebase.google.com/support/privacy">Сведения Firebase</a> и <a href="https://policies.google.com/privacy">политика Google</a>.</td></tr>
+          <tr><td>Google User Messaging Platform (UMP)</td><td>Окна согласия, запросы его статуса и управление рекламными предпочтениями. <a href="https://policies.google.com/privacy">Политика Google</a>.</td></tr>
+          <tr><td>AppsFlyer</td><td>Атрибуция установок и кампаний, измерение событий и покупок, защита от мошенничества. <a href="https://www.appsflyer.com/legal/services-privacy-policy/">Политика сервисов AppsFlyer</a>.</td></tr>
+          <tr><td>Apple App Store, Google Play и RuStore</td><td>Распространение, платежи, проверка и восстановление покупок в соответствующем магазине. <a href="https://www.apple.com/legal/privacy/en-ww/">Политика Apple</a>, <a href="https://policies.google.com/privacy">политика Google</a>, <a href="https://www.rustore.ru/help/legal/privacy-policy-users">политика RuStore</a>.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Мы также можем раскрывать информацию по требованиям закона, для защиты пользователей или сервиса либо по вашему запросу. Передача идентификаторов и сведений об использовании или взаимодействии с рекламой для персонализированной или межсервисной рекламы может считаться «продажей», «передачей» или таргетированной рекламой по законам отдельных юрисдикций; применимые права на отказ описаны ниже.</p>
 
-<p>Unity Analytics may collect device identifiers such as:</p>
+      <h2>5. Ваши настройки</h2>
+      <ul>
+        <li><strong>Реклама:</strong> используйте окно согласия и настройки конфиденциальности рекламы в магазине, когда они доступны или требуются. Через них можно пересмотреть или отозвать поддерживаемые варианты согласия. Выбор может влиять на доступность рекламы.</li>
+        <li><strong>Настройки устройства:</strong> управляйте отслеживанием приложений и рекламными идентификаторами через доступные настройки iOS или Android. Разрешение App Tracking Transparency на iOS отдельно от рекламного окна согласия.</li>
+        <li><strong>Уведомления:</strong> управляйте разрешениями на уведомления в настройках устройства.</li>
+        <li><strong>Локальные и облачные данные:</strong> используйте доступные функции сброса или удаления в игре либо свяжитесь с нами по поводу данных онлайн-сервисов. Удаление приложения или локальных данных автоматически не удаляет облачные сохранения, записи магазинов о покупках и данные, уже полученные провайдерами.</li>
+        <li><strong>Запросы о конфиденциальности:</strong> для обращений по поводу аналитики и других персональных данных используйте адрес ниже. Настройки конфиденциальности рекламы не являются общим выключателем всей аналитики и онлайн-сервисов игры.</li>
+      </ul>
+      <p>Для обычной игры просмотр рекламы не требуется. Отказ от необязательной персонализации рекламы или использование прав на защиту данных не обязывает смотреть рекламу для продолжения игры.</p>
 
-<ul>
-<li>Unity device ID</li>
-<li>Advertising ID (if applicable)</li>
-</ul>
+      <h2>6. Сроки хранения, передача и защита</h2>
+      <p>Информация хранится столько, сколько необходимо для описанных целей, включая работу сервиса, решение обращений и вопросов покупок, предотвращение мошенничества и исполнение правовых обязанностей. Локальные сохранения существуют до удаления или замены; облачные записи и данные провайдеров хранятся согласно настройкам и политикам соответствующих сервисов. Удаление игры само по себе не удаляет эти записи.</p>
+      <p>Провайдеры могут обрабатывать информацию за пределами страны вашего проживания. В применимых случаях для международной передачи должны использоваться предусмотренные законом гарантии; сведения о местах обработки и механизмах передачи приведены в политиках провайдеров.</p>
+      <p>Мы применяем разумные технические и организационные меры защиты. Ни один способ хранения или передачи не может гарантировать абсолютную безопасность.</p>
 
-<h4>e) Anonymous Player ID</h4>
+      <h2>7. Права в отношении данных</h2>
+      <p>В зависимости от вашей страны и применимого законодательства у вас могут быть права получить информацию об обработке, доступ к данным, исправить их, запросить удаление или перенос, ограничить обработку или возразить против неё, отозвать согласие, отказаться от таргетированной рекламы, продажи или передачи персональных данных. Также может быть доступна жалоба в орган по защите данных. Права реализуются с учётом предусмотренных законом условий и исключений.</p>
+      <p>Для обращения напишите на <a href="mailto:nikita.rysin.studio@gmail.com">nikita.rysin.studio@gmail.com</a>. Если для соответствующего типа запроса требуется проверка, мы можем запросить минимальные сведения для поиска записей и такой проверки. Укажите платформу и версию игры; не отправляйте пароли и полные данные банковских карт. По вопросам самостоятельной обработки данных отдельным провайдером можно обратиться к нему напрямую.</p>
+      <p>Для отказа от использования данных в рекламе воспользуйтесь доступными настройками конфиденциальности в игре либо отправьте <a href="mailto:nikita.rysin.studio@gmail.com?subject=Do%20Not%20Sell%20or%20Share%20My%20Personal%20Information">запрос об отказе от продажи или передачи персональных данных</a>. Для такого отказа мы не требуем подтверждения личности, но можем запросить ограниченные сведения, необходимые для определения соответствующих записей.</p>
 
-<p>The Application may generate a random anonymous player identifier. This identifier is used to store gameplay progress and support cloud save functionality. It cannot be used to personally identify a user.</p>
+      <h2>8. Дети</h2>
+      <p>Spirit Echo предназначена для подростковой и взрослой аудитории и специально не ориентирована на детей младше 13 лет. Мы не стремимся намеренно получать персональные данные детей этого возраста. Если вы считаете, что данные ребёнка были предоставлены с нарушением применимых требований, свяжитесь с нами для проверки и принятия необходимых мер, включая удаление в предусмотренных законом случаях. Местное законодательство может устанавливать более высокий возраст для согласия родителей.</p>
 
-<hr>
-
-<h3>2. How We Use This Information</h3>
-
-<ul>
-<li>To analyze how the Application is used</li>
-<li>To improve gameplay, balance, UI, and overall experience</li>
-<li>To fix bugs and improve stability</li>
-<li>To store gameplay progress</li>
-<li>To process and validate in-app purchases</li>
-</ul>
-
-<hr>
-
-<h3>3. Third-Party Service Providers</h3>
-
-<p>The Application uses the following third-party services, which may collect and process data according to their own privacy policies:</p>
-
-<ul>
-<li><a href="https://unity.com/legal/privacy-policy" target="_blank">Unity Analytics</a></li>
-<li><a href="https://unity.com/legal/privacy-policy" target="_blank">Unity IAP / Unity Services</a></li>
-<li><a href="https://www.apple.com/legal/privacy/" target="_blank">Apple App Store / Apple In-App Purchases</a></li>
-<li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
-</ul>
-
-<p>No data is sold or shared with third parties for advertising or profiling.</p>
-
-<hr>
-
-<h3>4. Children's Privacy</h3>
-
-<p>The Application is not intended for children under the age of 13. We do not knowingly collect personal data from children. If you believe that a child provided us with data, please contact us at the email below.</p>
-
-<hr>
-
-<h3>5. Security</h3>
-
-<p>We take reasonable measures to protect your data. All transmitted data (such as analytics and purchase verification) is sent securely using encrypted connections.</p>
-
-<hr>
-
-<h3>6. Your Rights</h3>
-
-<p>You may stop data collection at any time by uninstalling the Application.</p>
-
-<p>Users in the EU and certain regions may have additional rights regarding data access, deletion, and restriction under GDPR.</p>
-
-<hr>
-
-<h3>7. Changes to This Policy</h3>
-
-<p>This Privacy Policy may be updated periodically. Any changes will be posted on this page.</p>
-
-<p><strong>Effective date:</strong> 2026-03-06</p>
-
-<hr>
-
-<h3>8. Contact Us</h3>
-
-<p>If you have any questions regarding privacy or data processing, contact us at:</p>
-
-<p><strong>nikita.rysin.studio@gmail.com</strong></p>
-
+      <h2>9. Изменения и контакты</h2>
+      <p>Мы можем обновлять политику при изменении игры или используемых сервисов. Новая версия публикуется на этой странице с обновлённой датой. В предусмотренных случаях мы предоставим дополнительное уведомление или запросим согласие.</p>
+      <p><strong>Nikita Rysin Studio</strong><br>Сайт: <a href="https://nikitarysinstudio.com">nikitarysinstudio.com</a><br>Конфиденциальность и поддержка: <a href="mailto:nikita.rysin.studio@gmail.com">nikita.rysin.studio@gmail.com</a></p>
+    </section>
+  </main>
+  <footer><a href="#english" lang="en">English</a> · <a href="#russian" lang="ru">Русский</a></footer>
 </body>
 </html>
